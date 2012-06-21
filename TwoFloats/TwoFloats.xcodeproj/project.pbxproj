@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55BA3FA51591AE56005AF865 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 55BA3FA41591AE56005AF865 /* main.c */; };
+		55BA3FA71591AE56005AF865 /* TwoFloats.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55BA3FA61591AE56005AF865 /* TwoFloats.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55BA3F9E1591AE56005AF865 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				55BA3FA71591AE56005AF865 /* TwoFloats.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55BA3FA01591AE56005AF865 /* TwoFloats */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TwoFloats; sourceTree = BUILT_PRODUCTS_DIR; };
+		55BA3FA41591AE56005AF865 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		55BA3FA61591AE56005AF865 /* TwoFloats.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TwoFloats.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55BA3F9D1591AE56005AF865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55BA3F951591AE56005AF865 = {
+			isa = PBXGroup;
+			children = (
+				55BA3FA31591AE56005AF865 /* TwoFloats */,
+				55BA3FA11591AE56005AF865 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55BA3FA11591AE56005AF865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55BA3FA01591AE56005AF865 /* TwoFloats */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55BA3FA31591AE56005AF865 /* TwoFloats */ = {
+			isa = PBXGroup;
+			children = (
+				55BA3FA41591AE56005AF865 /* main.c */,
+				55BA3FA61591AE56005AF865 /* TwoFloats.1 */,
+			);
+			path = TwoFloats;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55BA3F9F1591AE56005AF865 /* TwoFloats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55BA3FAA1591AE56005AF865 /* Build configuration list for PBXNativeTarget "TwoFloats" */;
+			buildPhases = (
+				55BA3F9C1591AE56005AF865 /* Sources */,
+				55BA3F9D1591AE56005AF865 /* Frameworks */,
+				55BA3F9E1591AE56005AF865 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoFloats;
+			productName = TwoFloats;
+			productReference = 55BA3FA01591AE56005AF865 /* TwoFloats */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55BA3F971591AE56005AF865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = GFITM;
+			};
+			buildConfigurationList = 55BA3F9A1591AE56005AF865 /* Build configuration list for PBXProject "TwoFloats" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55BA3F951591AE56005AF865;
+			productRefGroup = 55BA3FA11591AE56005AF865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55BA3F9F1591AE56005AF865 /* TwoFloats */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55BA3F9C1591AE56005AF865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BA3FA51591AE56005AF865 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		55BA3FA81591AE56005AF865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		55BA3FA91591AE56005AF865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		55BA3FAB1591AE56005AF865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		55BA3FAC1591AE56005AF865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55BA3F9A1591AE56005AF865 /* Build configuration list for PBXProject "TwoFloats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BA3FA81591AE56005AF865 /* Debug */,
+				55BA3FA91591AE56005AF865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55BA3FAA1591AE56005AF865 /* Build configuration list for PBXNativeTarget "TwoFloats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55BA3FAB1591AE56005AF865 /* Debug */,
+				55BA3FAC1591AE56005AF865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55BA3F971591AE56005AF865 /* Project object */;
+}
